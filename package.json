@@ -34,7 +34,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://vidilabs.com.hk",
+  "homepage": "/",
   "eslintConfig": {
     "extends": [
       "react-app",
