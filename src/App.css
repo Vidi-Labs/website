@@ -1,0 +1,135 @@
+/* Reset Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', Ubuntu, sans-serif;
+}
+
+/* Neue Font Family */
+@font-face {
+  font-family: 'Neue';
+  src: local('Neue'), url(./fonts/NeueMachina-Regular.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue';
+  src: local('Neue'), url(./fonts/NeueMachina-Light.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue';
+  src: local('Neue'), url(./fonts/NeueMachina-Ultrabold.otf) format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Ubuntu Font Family */
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu'), url(./fonts/Ubuntu-Light.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu'), url(./fonts/Ubuntu-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu'), url(./fonts/Ubuntu-Medium.ttf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu'), url(./fonts/Ubuntu-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Inter Font Family - 18pt */
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url(./fonts/Inter_18pt-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18pt;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url(./fonts/Inter_18pt-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18pt;
+}
+
+/* Add other 18pt variations as needed */
+
+/* Inter Font Family - 24pt */
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url(./fonts/Inter_24pt-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24pt;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url(./fonts/Inter_24pt-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24pt;
+}
+
+/* Add other 24pt variations as needed */
+
+/* Inter Font Family - 28pt */
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url(./fonts/Inter_28pt-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28pt;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url(./fonts/Inter_28pt-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28pt;
+}
+
+/* Add other 28pt variations as needed */
+
+/* Font Variables */
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-ubuntu: 'Ubuntu', sans-serif;
+  --font-neue: 'Neue', sans-serif;
+}
+
+/* Utility Classes */
+.font-inter {
+  font-family: var(--font-inter);
+}
+
+.font-ubuntu {
+  font-family: var(--font-ubuntu);
+}
+
+.font-neue {
+  font-family: var(--font-neue);
+}
